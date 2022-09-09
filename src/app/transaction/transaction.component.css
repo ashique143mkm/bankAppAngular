@@ -1,0 +1,14 @@
+table,tbody,thead,th,td{
+    color: white;
+    border: 2px solid ;
+    padding: 2px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.home{
+    margin-top: 4px;
+    text-align: center;
+}

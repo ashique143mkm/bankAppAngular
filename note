@@ -1,0 +1,103 @@
+
+
+                Angular -  Front End Technology
+
+
+                        Bacic Commands
+                1.to create a project - ng new project name/ng new project name --routing
+
+                2.to run Angular Project - ng serve / ng serve --open
+
+                3.to generate components - ng g c component-name
+
+                3.to generate services - ng g c service-name
+
+
+                                Basic Bulding Blocks
+
+        1. Modules - To import 3rd party - (root module -AppModule)
+
+        2.Component - To create html,css,ts file (root component - AppComponent)
+
+        3.Data binding - share data inside component
+
+                3.1. One way binding -data sharing only one direction
+
+                        3.1.1 compenent(ts) to view(html)
+
+                                3.1.1.1 String interpulation - {{expression}}
+
+                                3.1.1.2 Property Binding - [attribute name]="Property Name"
+
+                        3.1.2 View (html) to component(ts)
+
+                                3.1.2.1 Event Binding (event name)="function-name()"
+
+                                3.1.2.2 Event Binding using $event (event name)="function-name($event)"
+
+                                3.1.2.3 Event binding Using template referencing variable - #variable name
+
+                3.2. Two way binding -data sharing in both direction 
+
+                        3.2.1. ngModel - import FormsModule in AppModule
+                        -[(ngModel)]="property-name",property-name should defined in ts file
+
+
+                4.Angular Routing - to set path for component in app-routing-modules  
+                  -{path:value,component:class-name}
+                  - use router - outlet selector inside a root component
+
+                5. Dependency Injecnction - Share data between dependent classes
+
+                6. ngSubmit - 
+
+                7. Angular services  - to hold redundant data
+
+                8. Angular Directives - to manipulate DOM
+
+                        8.1 Component Directives
+
+                        8.2 Structural Directive 
+
+                                8.2.1 *ngFor -
+
+                                8.2.2 *ngIf
+
+                        8.3. Attribute Directive
+
+                        9. Angular Forms
+
+                                9.1 Template Driven Forms  - first design html
+
+                                9.2 Model Driven Forms - first design ts file 
+
+                                        9.2.1 Reactive Forms - Form Group , Array , Control
+                                                - Add validations
+
+                                                - import RecativeFormsModule
+
+                        10. Local Storage
+
+                                10.1 setItem
+                                10.2 getitem
+                                10.3 deleteItem
+
+                        11.Parent Child Communication
+
+                                11.1. parent to child  - @Input
+
+                                11.2 child to parent - @Output
+
+                        12.Angular Pipe
+
+                        13.Front End - Back End
+
+                                13.1 import HttpClientModule
+
+                                13.2 Inject HttpClient
+
+
+
+
+
+                
